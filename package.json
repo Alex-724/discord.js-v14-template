@@ -4,8 +4,7 @@
   "description": "A template for discord.js v14 bots that only work with slash commands.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "install": "npm install"
+    "start": "node index.js"
   },
   "keywords": ["discord.js", "v14", "slash commands", "template"],
   "author": {
@@ -17,5 +16,13 @@
   "dependencies": {
     "discord.js": "^14.15.2",
     "dotenv": "^16.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-724/discord.js-v14-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex-724/discord.js-v14-template/issues"
+  },
+  "homepage": "https://github.com/Alex-724/discord.js-v14-template#readme"
 }
