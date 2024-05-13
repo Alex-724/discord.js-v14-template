@@ -1,0 +1,21 @@
+{
+  "name": "discord.js-v14-template",
+  "version": "1.0.0",
+  "description": "A template for discord.js v14 bots that only work with slash commands.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install": "npm install"
+  },
+  "keywords": ["discord.js", "v14", "slash commands", "template"],
+  "author": {
+    "name": "Sahand Sami",
+    "github": "github.com/Alex-724",
+    "Discord": "alex0724x2"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5"
+  }
+}
