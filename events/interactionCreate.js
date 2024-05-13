@@ -1,3 +1,6 @@
+// This code is part of the https://github.com/Alex-724/discord.js-v14-template repository
+// Copyright (c) [2024] [Alex-724]
+
 const { Collection, PermissionsBitField: { Flags: Permission } } = require('discord.js'); // Importing the Collection class from discord.js
 module.exports = {
     name: 'interactionCreate', // Event name: interactionCreate

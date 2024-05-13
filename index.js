@@ -1,4 +1,7 @@
-require('dotenv').config();
+// This code is part of the https://github.com/Alex-724/discord.js-v14-template repository
+// Copyright (c) [2024] [Alex-724]
+
+require('dotenv').config(); // Importing the dotenv module
 const Client = require('./base/Client'); // Importing the CustomClient class
 const client = new Client(); // Creating a new instance of the CustomClient class
 const fs = require('fs'); // Importing the fs module
@@ -7,9 +10,9 @@ const eventFiles = fs.readdirSync('./events').filter(file => file.endsWith('.js'
 for (const file of eventFiles) {
     const event = require(`./events/${file}`);
     if (event.once) {
-        client.once(event.name, (...args) => event.execute(...args, client));
+        client.once(event.name, (...args) => event.execute(...args, client)); // Listening to the once event
     } else {
-        client.on(event.name, (...args) => event.execute(...args, client));
+        client.on(event.name, (...args) => event.execute(...args, client)); // Listening to the event
     }
 }
 // event handler end
