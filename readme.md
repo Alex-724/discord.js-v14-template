@@ -20,7 +20,7 @@ This is a template for creating a Discord bot using discord.js v14.
    ```
 3. Create a `.env` file in the root directory and add your bot token:
    ```
- TOKEN=your-bot-token
+   TOKEN=your-bot-token
    ```
 4. Run the bot:
    ```
