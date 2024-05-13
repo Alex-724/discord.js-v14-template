@@ -58,4 +58,4 @@ To add an event, create a new file in the `events` directory. The file should ex
 
 ## License
 
-Please refer to the [LICENSE](https://github.com/Alex-724/discord.js-v14-template/LICENSE) file for the license information.
+Please refer to the [LICENSE](https://github.com/Alex-724/discord.js-v14-template/blob/main/LICENSE) file for the license information.
