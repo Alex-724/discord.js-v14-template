@@ -7,5 +7,7 @@ module.exports = {
     async execute(client) {
         console.log(`Logged in as ${client.user.tag}`); // Log the bot's tag when the bot is ready
         await client.setSlashCommands(); // Set slash commands for all guilds
+        const { name, status } = client.config.botactivity; // Destructure the botactivity object from the config file
+        client.user.setPresence({ activities: [{ name }], status }); // Set the bot's activity
     },
 };
